@@ -1,30 +1,10 @@
-let tema = "claro"
+ const botoesAssunto = document.querySelectorAll(".assuntos button")
+ botoesAssunto.forEach(botao =>{
+    botao.addEventListener("click", selecionarAssunto)
+ })
 
-const botaoTema = document.querySelector(".tema button")
-botaoTema.addEventListener("click", trocarTema)
-
-const body = document.querySelector("body")
-
-function trocarTema() {
-    if (localStorage.getItem("tema")) {
-        tema = localStorage.getItem("tema")
+ function selecionarAssunto(evento) {
+    const assunto = evento.target.innerText
+    localStorage.setItem("assunto", assunto)
+    window.location.href = "./pages/quiz/quiz.html"
  }
-
-    if (tema === "claro") {
-        body.classList.add("escuro")
-        localStorage.setItem("tema", "escuro")
-    }else{
-        body.classList.remove("escuro")
-        localStorage.setItem("tema", "claro")
-    }
-}
-
-function verificarTema() {
-    if (localStorage.getItem("tema")){
-        tema = localStorage.getItem("tema")
-    }
-
-    if (tema === "escuro") {
-        body.classList.add("escuro")
-    }
-}

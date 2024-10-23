@@ -56,11 +56,18 @@ header {
 }
 
 .assunto_icone {
-  background: var(--bg-acessibilidade);
   width: 40px;
   height: 40px;
   padding: 5px;
   border-radius: 5px;
+}
+
+.assunto_icone.quiz {
+  background: var(--bg-quiz);
+}
+
+.assunto_icone.acessibilidade {
+  background: var(--bg-acessibilidade);
 }
 
 .assunto_icone img {
