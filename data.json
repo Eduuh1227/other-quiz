@@ -1,108 +1,108 @@
 {
     "quizzes": [
         {
-            "title": "HTML",
-            "icon": "../../assets/images/icon-html.svg",
+            "title": "Quiz",
+            "icon": "../../assets/images/icon-quiz.svg",
             "questions": [
                 {
-                    "question": "Qual o significado de HTML?",
+                    "question": "Qual é a principal causa de acidentes fatais envolvendo pedestres em áreas urbanas?",
                     "options": [
-                        "Hyper Trainer Marking Language",
-                        "Hyper Text Marketing Language",
-                        "Hyper Text Markup Language",
-                        "Hyper Text Markup Leveler"
+                        "Falta de sinalização nas ruas",
+                        "Uso do celular ao atravessar a rua",
+                        "Excesso de velocidade dos veículos",
+                        "Travessia em áreas não sinalizadas"
                     ],
-                    "answer": "Hyper Text Markup Language"
+                    "answer": "Travessia em áreas não sinalizadas"
                 },
                 {
-                    "question": "Qual das alternativas abaixo mostra a estrutura correta de um documento HTML?",
+                    "question": "Qual das seguintes ações é considerada uma prática segura para pedestres ao atravessar a rua?",
                     "options": [
-                        "<html><head></head><body></body></html>",
-                        "<head><html></html><body></body></head>",
-                        "<body><head></head><html></html></body>",
-                        "<html><body></body><head></head></html>"
+                        "Atravessar rapidamente fora da faixa de pedestres",
+                        "Olhar para os dois lados antes de atravessar",
+                        "Confiar que os motoristas sempre vão parar",
+                        "Caminhar em grupos grandes para maior segurança"
                     ],
-                    "answer": "<html><head></head><body></body></html>"
+                    "answer": "Olhar para os dois lados antes de atravessar"
                 },
                 {
-                    "question": "Qual dos elementos abaixo e responsável pelo título do documento?",
+                    "question": "Qual medida pode reduzir significativamente o risco de atropelamento de pedestres à noite?",
                     "options": [
-                        "<head>",
-                        "<title>",
-                        "<header>",
-                        "<top>"
+                        "Usar roupas escuras",
+                        "Caminhar no meio da rua",
+                        "Usar roupas com materiais refletivos",
+                        "Atravessar em qualquer lugar, desde que esteja atento"
                     ],
-                    "answer": "<title>"
+                    "answer": "Usar roupas com materiais refletivos"
                 },
                 {
-                    "question": "Qual é a função da tag <body> no HTML?",
+                    "question": "Em relação aos motoristas, qual comportamento pode ajudar a proteger a segurança dos pedestres?",
                     "options": [
-                        "Define o cabeçalho da página.",
-                        "Contém todo o conteúdo como textos, imagens e links.",
-                        "Utilizada para definir o conteúdo principal da página.",
-                        "Define o corpo de um elemento de email no HTML."
+                        "Aumentar a velocidade ao se aproximar de uma faixa de pedestres",
+                        "Respeitar os limites de velocidade e sinais de trânsito",
+                        "Tocar a buzina ao se aproximar de pedestres",
+                        " Acelerar para evitar pedestres atravessando fora da faixa"
                     ],
-                    "answer": "Contém todo o conteúdo como textos, imagens e links."
+                    "answer": "Respeitar os limites de velocidade e sinais de trânsito"
                 },
                 {
-                    "question": "Qual das tags abaixo é usada para criar hyperlinks (âncoras)?",
+                    "question": "Qual é o comportamento mais seguro para um pedestre em uma via sem calçada?",
                     "options": [
-                        "<hyperlink>",
-                        "<link>",
-                        "<a>",
-                        "<href>"
+                        "Caminhar no mesmo sentido dos veículos",
+                        "Caminhar no sentido oposto ao fluxo dos veículos",
+                        "Caminhar no meio da via para ser mais visível",
+                        "Caminhar o mais próximo possível do centro da estrada"
                     ],
-                    "answer": "<a>"
+                    "answer": "Caminhar no sentido oposto ao fluxo dos veículos"
                 },
                 {
-                    "question": "Qual das tags é usada para mostrar imagens no HTML?",
+                    "question": "Em cruzamentos sem semáforo, o que o pedestre deve fazer ao atravessar a rua?",
                     "options": [
-                        "<img>",
-                        "<image>",
-                        "<src>",
-                        "<pic>"
+                        "Atravessar rapidamente, sem parar",
+                        "Confiar que os motoristas sempre irão parar",
+                        "Fazer contato visual com os motoristas e garantir que eles o vejam",
+                        "Atravessar apenas se o fluxo de veículos estiver parado"
                     ],
-                    "answer": "<img>"
+                    "answer": "Fazer contato visual com os motoristas e garantir que eles o vejam"
                 },
                 {
-                    "question": "Qual atributo é utilizado para indicar o caminho (fonte) de uma tag <img>?",
+                    "question": "Qual fator aumenta o risco de atropelamento em zonas escolares?",
                     "options": [
-                        "link",
-                        "src",
-                        "href",
-                        "url"
+                        "Redução de velocidade perto de escolas",
+                        "Falta de atenção dos pedestres ao usar faixas de pedestres",
+                        "Motoristas reduzirem a atenção devido à presença constante de crianças",
+                        "Uso de sinalização inadequada nas zonas escolares"
                     ],
-                    "answer": "src"
+                    "answer": "Falta de atenção dos pedestres ao usar faixas de pedestres"
                 },
                 {
-                    "question": "Qual tag HTML é usada para criar uma lista não ordenada?",
+                    "question": "Qual é o impacto do uso de dispositivos móveis para pedestres ao atravessar a rua?",
                     "options": [
-                        "<ul>",
-                        "<ol>",
-                        "<list>",
-                        "<li>"
+                        "Aumenta a atenção do pedestre",
+                        "Diminui o tempo de reação do pedestre",
+                        "Não interfere na segurança do pedestre",
+                        "Melhora a visibilidade do pedestre"
                     ],
-                    "answer": "<ul>"
+                    "answer": "Diminui o tempo de reação do pedestre"
                 },
                 {
-                    "question": "O que faz a tag <br>?",
+                    "question": "Qual é a atitude recomendada para um pedestre quando o sinal de pedestres está piscando?",
                     "options": [
-                        "Quebra o texto em duas seções.",
-                        "Deixa o texto em negrito.",
-                        "Insere uma quebra de linha.",
-                        "Adiciona uma nova linha na tabela."
+                        "Correr para atravessar antes que o sinal feche",
+                        "Parar e aguardar o próximo ciclo do sinal",
+                        "Atravessar se já estiver na metade da faixa",
+                        "Ignorar o sinal piscando e seguir normalmente."
                     ],
-                    "answer": "Insere uma quebra de linha."
+                    "answer": "Atravessar se já estiver na metade da faixa"
                 },
                 {
-                    "question": "No HTML, o que faz a tag `fieldset`?",
+                    "question": "Qual a importância de faixas de pedestres elevadas em vias urbanas?",
                     "options": [
-                        "É usada para agrupar informações relacionadas de um formulário.",
-                        "Define um tamanho fixo para o formulário.",
-                        "Faz a verificação automática das respostas do formulário.",
-                        "Esconde os campos de um formulário."
+                        "Tornam as ruas mais bonitas",
+                        "Reduzem a velocidade dos veículos e protegem os pedestres",
+                        "Aumentam o fluxo de veículos",
+                        "Facilitam a travessia rápida dos veículos"
                     ],
-                    "answer": "É usada para agrupar informações relacionadas de um formulário."
+                    "answer": "Reduzem a velocidade dos veículos e protegem os pedestres"
                 }
             ]
         },
