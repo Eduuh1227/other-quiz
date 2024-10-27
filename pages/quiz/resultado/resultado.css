@@ -63,6 +63,11 @@ header {
   border-radius: 5px;
 }
 
+.assunto_icone.quiz {
+  background: var(--bg-quiz);
+}
+
+
 .assunto_icone img {
   width: 100%;
 }
